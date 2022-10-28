@@ -1,0 +1,7 @@
+def function1(books):
+  for x in books:
+    print(x)
+
+books = ["scorching love", "a kiss to costa leona", "wave of memories", "taste of sky"]
+
+function1(books)
