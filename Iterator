@@ -1,0 +1,18 @@
+class Sequence:
+  def __iter__(numbers):
+    numbers.sequence = 3
+    return numbers
+​
+  def __next__(numbers):
+    if numbers.sequence <= 100:
+      x = numbers.sequence
+      numbers.sequence += 3
+      return x
+    else:
+      raise StopIteration
+​
+my_class = Sequence()
+my_iter = iter(my_class)
+​
+for x in my_iter:
+  print(x)
