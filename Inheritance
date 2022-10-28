@@ -1,0 +1,15 @@
+class Section:
+  def __init__(section, course, snumber):
+    section.course = course
+    section.sectionnumber = snumber
+
+  def printname(section):
+    print(section.course, section.sectionnumber)
+
+x = Section("BS Information Technology", "2101")
+y = Section("BS Criminology", "212")
+z = Section("BS Fine Arts", "1001")
+
+x.printname()
+y.printname()
+z.printname()
