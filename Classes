@@ -1,0 +1,12 @@
+class Idol:
+  def __init__(kpop, name, group):
+    kpop.name = name
+    kpop.group = group
+
+k1 = Idol("Jisoo", "BP")
+k2 = Idol("Rei", "   IVE")
+k3 = Idol("Chanty", "Lapillus")
+
+
+print(k1.name, k2.name, k3.name)
+print(k1.group, k2.group, k3.group)
