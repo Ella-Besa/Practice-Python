@@ -1,0 +1,33 @@
+import calendar
+
+today = calendar.weekday(2022, 10, 29)
+print(today)
+print()
+yesterday = calendar.weekday(2022, 10, 28)
+print(yesterday)
+print()
+
+print ("The calendar of year 2022 is : ")
+print(calendar.calendar(2022))
+print()
+
+print(calendar.weekheader(5))
+print()
+
+print(calendar.firstweekday())
+print()
+print()
+
+print ("The calendar of year 2022 in this format is : ")
+print(calendar.month(2022, 1))
+print(calendar.month(2022, 2))
+print(calendar.month(2022, 3))
+print(calendar.month(2022, 4))
+print(calendar.month(2022, 5))
+print(calendar.month(2022, 6))
+print(calendar.month(2022, 7))
+print(calendar.month(2022, 8))
+print(calendar.month(2022, 9))
+print(calendar.month(2022, 10))
+print(calendar.month(2022, 11))
+print(calendar.month(2022, 12))
