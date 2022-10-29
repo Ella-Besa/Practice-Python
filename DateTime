@@ -1,0 +1,13 @@
+import datetime
+
+x = datetime.datetime(2022, 10, 29)
+y = datetime.datetime(2022, 11, 29)
+
+print(x.strftime("%Y"))
+print(x.strftime("%B"))
+print(x.strftime("%d"))
+print()
+print(y.strftime("%Y"))
+print(y.strftime("%B"))
+print(y.strftime("%d"))
+
